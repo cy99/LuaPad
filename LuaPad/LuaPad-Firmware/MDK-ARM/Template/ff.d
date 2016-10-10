@@ -1,0 +1,44 @@
+template\ff.o: ../Middlewares/Third_Party/FatFs/src/ff.c
+template\ff.o: ../Middlewares/Third_Party/FatFs/src/ff.h
+template\ff.o: ../Middlewares/Third_Party/FatFs/src/integer.h
+template\ff.o: ../Inc/ffconf.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+template\ff.o: ../Inc/stm32f4xx_hal_conf.h
+template\ff.o: ../Inc/mxconstants.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+template\ff.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+template\ff.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h
+template\ff.o: ../Drivers/CMSIS/Include/core_cm4.h
+template\ff.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+template\ff.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+template\ff.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+template\ff.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+template\ff.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+template\ff.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+template\ff.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+template\ff.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+template\ff.o: ../Inc/bsp_driver_sd.h
+template\ff.o: ../Middlewares/Third_Party/FatFs/src/diskio.h
+template\ff.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdarg.h

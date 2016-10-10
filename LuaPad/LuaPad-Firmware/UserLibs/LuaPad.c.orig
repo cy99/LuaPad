@@ -1,0 +1,66 @@
+#include "LuaPad.h"
+
+uint16_t ADCConvertedValue[9];
+
+void PAD_LED(uint8_t _index,LED_status _status)
+{
+	switch(_index)
+	{
+		case 1:
+			switch(_status)
+			{
+				case ON:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_13,GPIO_PIN_RESET);
+					break;
+				case OFF:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_13,GPIO_PIN_SET);
+					break;
+				case TURN:
+					HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_13);
+					break;
+			}
+			break;
+		case 2:
+			switch(_status)
+			{
+				case ON:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_14,GPIO_PIN_RESET);
+					break;
+				case OFF:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_14,GPIO_PIN_SET);
+					break;
+				case TURN:
+					HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_14);
+					break;
+			}
+			break;
+		case 3:
+			switch(_status)
+			{
+				case ON:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_15,GPIO_PIN_RESET);
+					break;
+				case OFF:
+					HAL_GPIO_WritePin(GPIOB,GPIO_PIN_15,GPIO_PIN_SET);
+					break;
+				case TURN:
+					HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_15);
+					break;
+			}
+			break;
+	}
+}
+
+
+
+
+GPIO_PinState PAD_Key(void)
+{
+	return HAL_GPIO_ReadPin(GPIOB,GPIO_PIN_12);
+}
+
+uint16_t PAD_ADC(int _channel)
+{
+	return ADCConvertedValue[_channel];
+}
+

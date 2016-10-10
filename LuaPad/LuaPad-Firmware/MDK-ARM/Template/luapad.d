@@ -1,0 +1,41 @@
+template\luapad.o: ..\UserLibs\LuaPad.c
+template\luapad.o: ..\UserLibs\LuaPad.h
+template\luapad.o: ..\UserLibs\mInclude.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+template\luapad.o: ../Inc/stm32f4xx_hal_conf.h
+template\luapad.o: ../Inc/mxconstants.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+template\luapad.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+template\luapad.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h
+template\luapad.o: ../Drivers/CMSIS/Include/core_cm4.h
+template\luapad.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+template\luapad.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+template\luapad.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+template\luapad.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+template\luapad.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+template\luapad.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+template\luapad.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+template\luapad.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+template\luapad.o: D:\Program Files\MDK\ARM\ARMCC\Bin\..\include\math.h
